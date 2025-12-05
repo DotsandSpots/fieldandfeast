@@ -29,3 +29,16 @@ body {
   color: var(--dark-charcoal);
   line-height: 1.6;
 }
+
+.site-header {
+  background-color: var(--midnight-blue);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 110px;
+  margin-bottom: 1rem;
+}
+
