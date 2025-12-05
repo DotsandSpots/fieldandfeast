@@ -1,0 +1,61 @@
+/* CSS BY Tyler H */
+
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&display=swap');
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ROOT VARIABLES */
+:root {
+  --midnight-blue: #1F2A44;
+  --olive-green: #76885B;
+  --champagne-gold: #E5C185;
+  --linen: #F8F4EC;
+  --dark-charcoal: #2B2B2B;
+  --soft-white: #FAF9F6;
+}
+
+/* GLOBAL STYLES (mobile first / small) */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: var(--soft-white);
+  color: var(--dark-charcoal);
+  line-height: 1.6;
+}
+
+.site-header {
+  background-color: var(--midnight-blue);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 110px;
+  margin-bottom: 1rem;
+}
+
+.site-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+
+.tagline {
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* NAVIGATION */
+.main-nav {
+  background-color: var(--champagne-gold);
+  padding: 0.75rem 0;
+}
