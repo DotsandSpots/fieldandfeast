@@ -73,3 +73,29 @@ body {
   color: var(--dark-charcoal);
   font-weight: 600;
 }
+
+.about {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.offerings-section {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+
+.offerings-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+
