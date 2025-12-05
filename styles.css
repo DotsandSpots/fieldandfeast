@@ -204,4 +204,11 @@ body {
   text-decoration: none;
 }
 
+.site-footer {
+  background-color: var(--midnight-blue);
+  height: 120px;
+  margin-top: 2rem;
+}
+
+
 
