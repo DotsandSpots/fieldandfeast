@@ -22,4 +22,10 @@
   --soft-white: #FAF9F6;
 }
 
-/* GLOBAL STYLES */
+/* GLOBAL STYLES (mobile first / small) */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: var(--soft-white);
+  color: var(--dark-charcoal);
+  line-height: 1.6;
+}
