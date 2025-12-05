@@ -98,4 +98,18 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.offerings {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+
+.offering-card {
+  background-color: var(--olive-green);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
 
