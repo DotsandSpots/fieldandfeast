@@ -159,3 +159,49 @@ body {
   width: 100%;
   border-radius: 5px;
 }
+
+.gallery figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.gallery-button {
+  display: block;
+  width: 50%;
+  max-width: 250px;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: var(--olive-green);
+  color: white;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 300;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 3rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+
+.contact-info a {
+  color: var(--dark-charcoal);
+}
+
+.socials {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+
+.socials a {
+  color: var(--midnight-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
