@@ -209,7 +209,7 @@ body {
   height: 120px;
   margin-top: 2rem;
 }
-
+/* MEDIA QUERY MEDIUM */
 @media (min-width: 600px) {
 
 
@@ -227,5 +227,20 @@ body {
   }
 }
 
+/* MEDIA QUERY (large) */
+@media (min-width: 900px) {
 
 
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+    .offerings {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    }
+
+
+/* MEDIA QUERY X-LARGE */
